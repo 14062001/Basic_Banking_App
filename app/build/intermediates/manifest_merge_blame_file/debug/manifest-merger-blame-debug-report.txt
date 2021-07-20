@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.basic_banking_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:5:5-26:19
+12        android:allowBackup="true"
+12-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\Shivani\.gradle\caches\transforms-2\files-2.1\5c4786bccfbaefa0f187e0e56044e26d\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Basic_Banking_App" >
+20-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:11:9-55
+21        <activity android:name="com.example.basic_banking_app.finalactivity" />
+21-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:12:9-60
+21-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:12:19-48
+22        <activity android:name="com.example.basic_banking_app.Viewall" />
+22-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:13:9-45
+22-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:13:19-42
+23        <activity android:name="com.example.basic_banking_app.transfermoney" />
+23-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:14:9-51
+23-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:14:19-48
+24        <activity
+24-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:15:9-17:61
+25            android:name="com.example.basic_banking_app.select"
+25-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:16:13-35
+26            android:label="@string/title_activity_select" />
+26-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:17:13-58
+27        <activity android:name="com.example.basic_banking_app.Home" />
+27-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:18:9-42
+27-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:18:19-39
+28        <activity android:name="com.example.basic_banking_app.MainActivity" >
+28-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:19:9-25:20
+28-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:19:19-47
+29            <intent-filter>
+29-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:21:17-69
+30-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:23:17-77
+32-->C:\Users\Shivani\AndroidStudioProjects\Basic_Banking_App\app\src\main\AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
