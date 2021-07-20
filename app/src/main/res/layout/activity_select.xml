@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize">
+
+
+    <EditText
+        android:id="@+id/nm"
+        android:layout_width="225dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#A5A1A1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+       />
+
+
+    <Button
+        android:id="@+id/ser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search"
+        app:layout_constraintBottom_toBottomOf="@+id/nm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nm"
+        app:layout_constraintTop_toTopOf="@+id/nm" />
+    app:navGraph="@navigation/mobile_navigation" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textColor="#201B1B"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <Button
+        android:id="@+id/transfermoney"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:layout_marginRight="92dp"
+        android:text="Transfer Money"
+        app:layout_constraintRight_toRightOf="@+id/ser"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
